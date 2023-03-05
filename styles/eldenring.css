@@ -1,0 +1,81 @@
+body{
+    color: hsl(0, 0%, 100%);
+}
+
+.headerVdDiv{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.headerVd{
+    width: 100%;
+}
+
+.frontDiv{
+    /* margin-top: 500px; */
+    width: 100%;
+    background-color: black;
+}
+
+.logoDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+}
+
+.logoImg{
+    margin-top: -130px;
+}
+
+.featureCenterDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.feature75Div{
+    width: 75%;
+}
+
+.worldRow, .exploreRow, .gameplayRow{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.worldVdDiv, .exploreVdDiv, .gameplayVdDiv{
+    width: 50%;
+    z-index: 1;
+}
+
+.worldVd, .exploreVd, .gameplayVd{
+    width: 100%;
+}
+
+.worldTxtDiv, .exploreTxtDiv, .gameplayTxtDiv{
+    width: 50%;
+    z-index: 2;
+}
+
+.worldTitle, .gameplayTitle{
+    background-color: #c19d53;
+    padding: 10px 10px 10px 80px;
+    margin: 60px 0 0 -50px;
+}
+
+.exploreTitle{
+    background-color: #c19d53;
+    padding: 10px 80px 10px 10px;
+    margin: 60px -50px 0 0;
+}
+
+.worldParas, .exploreParas, .gameplayParas{
+    margin: 30px 30px 0 30px
+}
+
+.worldPara1, .explorePara1, .gameplayPara1{
+    margin-bottom: 30px;
+}
+
+/* Below 768px */

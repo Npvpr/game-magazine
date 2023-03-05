@@ -1,0 +1,96 @@
+.headerDiv{
+    background-image: url("../media/albion/header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 850px;
+}
+
+.logoDiv{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 500px;
+}
+
+.eachFeaDiv{
+    width: 100%;
+    background-image: url("../media/albion/pvpFight.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 620px;
+}
+
+.eachTxtDiv{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    background-color: rgba(0,0,0,.4);
+}
+
+.eachTxtPart{
+    width: 100%;
+    padding: 120px;
+}
+
+.fightTxtDiv{
+    float: right;
+}
+
+.eachMainTitle{
+    margin: 50px 0 30px 0;
+    color: #e4e1cf;
+}
+
+.eachSecondTitle{
+    margin-bottom: 30px;
+    color: #f29921;
+}
+
+.eachPara{
+    color: #e4e1cf;
+}
+
+.eachBtn{
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid #ddd;
+    padding: 10px;
+}
+
+.eachBtn:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px #ddd;
+}
+
+.eachLeftBtn{
+    left: 5%;
+}
+
+.eachRightBtn{
+    right: 5%;
+}
+
+.eachBtnSquareGroup{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.eachBox{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-color: #f09833;
+    border: 2px solid #fff;
+}
