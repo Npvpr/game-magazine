@@ -1,3 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+:root{
+    font-size: 16px;
+}
+
+.backBtn{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    z-index: 99;
+}
+
 body{
     color: hsl(0, 0%, 100%);
 }
@@ -15,7 +34,6 @@ body{
 }
 
 .frontDiv{
-    /* margin-top: 500px; */
     width: 100%;
     background-color: black;
 }
@@ -70,6 +88,10 @@ body{
     margin: 60px -50px 0 0;
 }
 
+.exploreVdDiv.mobile{
+    display: none;
+}
+
 .worldParas, .exploreParas, .gameplayParas{
     margin: 30px 30px 0 30px
 }
@@ -79,3 +101,29 @@ body{
 }
 
 /* Below 768px */
+@media (max-width: 768px) {
+    .logoImg{
+        width: 80%;
+        margin-top: -15%;
+    }
+
+    .worldRow, .exploreRow, .gameplayRow{
+        display: block;
+    }
+
+    .worldVdDiv, .exploreVdDiv, .gameplayVdDiv{
+        width: 100%;
+    }
+
+    .worldTxtDiv, .exploreTxtDiv, .gameplayTxtDiv{
+        width: 100%;
+    }
+
+    .exploreVdDiv.desk{
+        display: none;
+    }
+
+    .exploreVdDiv.mobile{
+        display: block;
+    }
+}

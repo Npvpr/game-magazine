@@ -3,4 +3,125 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial;
+    color: #fff;
+}
+
+:root{
+    font-size: 16px;
+}
+
+.backBtn{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    z-index: 99;
+}
+
+.headerDiv{
+    height: 100vh;
+    background-image: url("../media/index/headerBG.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-size: 7em;
+}
+
+.mainDiv{
+    background-image: url("../media/index/mainBG.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2%;
+    display: grid;
+    grid-template-areas: 
+    "a a"
+    "b c"
+    "d e";
+}
+
+.mainDiv > *{
+    margin-bottom: 20px;
+}
+
+.txt{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.gameGrid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.gameGrid > *{
+    display: flex;
+    justify-content: center;
+}
+
+.gameGrid > a{
+    width: 80%;
+}
+
+.gameTitle{
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.gameImg{
+    width: 100%;
+    border-radius: 30px;
+}
+
+.txtGrid{
+    grid-area: a;
+}
+
+.eldenringGrid{
+    grid-area: b;
+}
+
+.albiononlineGrid{
+    grid-area: c;
+}
+
+.overwatchGrid{
+    grid-area: d;
+}
+
+.mhriseGrid{
+    grid-area: e;
+}
+
+@media (max-width: 768px) {
+    .title{
+        font-size: 3.5em;
+        text-align: center;
+    }
+
+    .mainDiv{
+        grid-template-areas: 
+        "a"
+        "b"
+        "c"
+        "d"
+        "e";
+    }
+
+    .txt{
+        font-size: 1em;
+    }
+
+    .gameTitle{
+        font-size: 1.2em;
+    }
 }

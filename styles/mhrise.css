@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+:root{
+    font-size: 16px;
+}
+
+.backBtn{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    z-index: 99;
+}
+
+.headerDiv{
+    height: 100vh;
+    background-image: url("../media/mhrise/headerBG.jpg");
+    background-position: center;
+}
+
+.logoDiv{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoImg{
+    width: 50%;
+}
+
+.mainDiv{
+    background-image: url("../media/mhrise/mainBG.jpg");
+    padding: 2%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    gap: 20px 20px;
+    grid-template-areas: 
+    "buddies buddies buddies monsters monsters monsters"
+    "multiplayer multiplayer weapons weapons rampage rampage"
+    "kamura kamura locales locales endemic endemic";
+}
+
+.mainDiv > img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.buddiesImg{
+    grid-area: buddies;
+}
+
+.monstersImg{
+    grid-area: monsters;
+}
+
+.multiplayerImg{
+    grid-area: multiplayer;
+}
+
+.weaponsImg{
+    grid-area: weapons;
+}
+
+.rampageImg{
+    grid-area: rampage;
+}
+
+.kamuraImg{
+    grid-area: kamura;
+}
+
+.localesImg{
+    grid-area: locales;
+}
+
+.endemicImg{
+    grid-area: endemic;
+}
+
+@media (max-width: 768px) {
+    .logoImg{
+        width: 90%;
+    }
+
+    .mainDiv{
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        gap: 10px 10px;
+        grid-template-areas: 
+        "buddies buddies"
+        "monsters monsters"
+        "multiplayer weapons"
+        "rampage kamura"
+        "locales endemic";
+    }
+}
+

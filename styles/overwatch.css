@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+:root{
+    font-size: 16px;
+}
+
+.backBtn{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    z-index: 99;
+}
+
+body{
+    background: url("../media/overwatch/sky.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: hsl(0, 0%, 100%);
+}
+
+#headerDiv{
+    position: relative;
+    height: 100vh;
+}
+
+#headerVd{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#logo{
+    width: 50%;
+}
+
+#headerTxtDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#headerTxtDiv > *{
+    margin-bottom: 40px;
+    font-size: 2.1em;
+}
+
+.mainTitleDiv{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    font-size: xx-large;
+}
+
+.combineDiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgDiv{
+    width: 50%;
+}
+
+#heroImg{
+    width: 100%;
+}
+
+.actionDiv{
+    width: 50%;
+    padding: 10% 0 0 10%;
+}
+
+.actionDiv > div{
+    margin-bottom: 50px;
+}
+
+.feaBtns > img{
+    margin-right: 35px;
+    width: 70px;
+    border-radius: 50%;
+    padding: 15px;
+    border: solid 2px #fff;
+    overflow: visible;
+}
+
+.feaBtns > img:hover, .feaBtns > img.active{
+    background-color: hsla(0,0%,100%,.3);
+    cursor: pointer;
+}
+
+.feaBtns > .active{
+    background-color: hsla(0,0%,100%,.3);
+}
+
+.txtTitleDiv{
+    font-size: 3em;
+}
+
+.txtParaDiv{
+    font-size: 1.5em;
+    margin-right: 10%;
+}
+
+.map{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.firstTitle, .secondTitle{
+    font-size: 3em;
+}
+
+.firstPara, .secondPara{
+    font-size: 1.5em;
+    margin: 2%;
+}
+
+.mapImgDiv{
+    margin: 2%;
+    width: 80%;
+}
+
+#mapImg{
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    #logo{
+        width: 90%;
+    }
+
+    #headerTxtDiv > *{
+        font-size: 1em;
+    }
+
+    .mainTitleDiv{
+        font-size: 1.5em;
+    }
+
+    .imgDiv{
+        width: 100%;
+    }
+
+    .actionDiv{
+        width: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .actionDiv > div{
+        margin-bottom: 20px;
+    }
+
+    .feaBtns > img{
+        width: 60px;
+        padding: 10px;
+        margin: 0 15px;
+    }
+
+    .txtTitleDiv{
+        font-size: 2em;
+    }
+    
+    .txtParaDiv{
+        font-size: 1em;
+        margin: 0 10%;
+    }
+
+    .firstTitle, .secondTitle{
+        font-size: 2em;
+    }
+
+    .firstPara, .secondPara{
+        font-size: 1rem;
+    }
+}
