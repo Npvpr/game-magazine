@@ -21,7 +21,7 @@ const fight = {
     paras: ["Challenge yourself with intense, exhilarating PvP fighting with the greatest warriors in the open world of Albion. Gear up and use teamwork to send the enemy fleeing from the battlefield! Only the most skilful fighters will leave the field victorious!",
             "Conquer a piece of the vast world of Albion for yourself! Territories allow your guild to collect valuable Siphoned Energy and gather precious resources. Claim yours, then expand your empire and protect it from invaders!",
             "Monster hunting isn’t just a pastime in Albion Online. The creatures you fight provide you with the resources you’ll need to create weapons and items. Arm yourself wisely: Powerful beasts lurk in the world below, and only true heroes can best them!"],
-    imgs: ["url('../media/albion/pvpFight.jpg')", "url('../media/albion/gvgFight.jpg')", "url('../media/albion/pveFight.jpg')"]
+    imgs: ["url('./media/albion/pvpFight.jpg')", "url('./media/albion/gvgFight.jpg')", "url('./media/albion/pveFight.jpg')"]
 };
 
 const character = {
@@ -33,7 +33,7 @@ const character = {
     secondTitles: ["DESTINY BOARD", "NO CLASSES - NO RESTRICTIONS"],
     paras: ["To create your perfect character, you need to be shown the many paths your destiny could take you. That’s where the Destiny Board comes in! The Destiny Board shows you everything you are and everything you could be, and that’s a lot! Dive in and choose your path.",
             "Forget what you know from other MMOs. There are no classes in Albion Online, which means no restrictions on what you can equip. Experiment to design and create your own perfect build - in Albion Online, you are what you wear!"],
-    imgs: ["url('../media/albion/characterDestiny.jpg')", "url('../media/albion/characterClass.jpg')"]
+    imgs: ["url('./media/albion/characterDestiny.jpg')", "url('./media/albion/characterClass.jpg')"]
 };
 
 const world = {
@@ -50,7 +50,7 @@ const world = {
             "Once an immensely powerful sorceress, Morgana diminished after a cataclysmic battle with Merlin at the end of the Great War. However, her devoted Disciples walk the earth still, bearing her standard in the name of evil, devastation... and revenge.",
             "The Avalonians are a proud and ancient faction, formed after the dragons went to their long slumber. They learned the power of the land through trial and error, infusing their tools, beasts, and even themselves with magic.",
             "Sent from the Old World to the coasts of Albion to exploit its resources, the Royals now serve as a place of refuge for newcomers in Albion. Not out of charity, of course, but to fill the King’s coffers in the Old World."],
-    imgs: ["url('../media/albion/worldDemon.jpg')","url('../media/albion/worldHeretics.jpg')","url('../media/albion/worldKeepers.jpg')","url('../media/albion/worldUndead.jpg')","url('../media/albion/worldMorgana.jpg')","url('../media/albion/worldAvalonians.jpg')","url('../media/albion/worldRoyals.jpg')",]
+    imgs: ["url('./media/albion/worldDemon.jpg')","url('./media/albion/worldHeretics.jpg')","url('./media/albion/worldKeepers.jpg')","url('./media/albion/worldUndead.jpg')","url('./media/albion/worldMorgana.jpg')","url('./media/albion/worldAvalonians.jpg')","url('./media/albion/worldRoyals.jpg')",]
 };
 
 // Setting Contents
